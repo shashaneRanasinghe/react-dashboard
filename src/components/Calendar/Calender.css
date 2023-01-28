@@ -1,0 +1,50 @@
+.event-name {
+  white-space: nowrap;
+  width: 130px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.event-desc {
+  white-space: nowrap;
+  width: 130px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: rgb(97, 98, 99);
+}
+
+.calHeading {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.event-desc:hover {
+  overflow: visible;
+}
+
+.event-name:hover {
+  overflow: visible;
+}
+
+.day {
+  font-weight: 900;
+  color: darkgreen;
+  font-size: x-large;
+}
+
+.month {
+  font-weight: bold;
+  color: gray;
+  font-size: medium;
+}
+
+.tableRow {
+  height: 50px;
+}
+
+.table {
+  height: 240px;
+  width: 300px;
+}
